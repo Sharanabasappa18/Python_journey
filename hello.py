@@ -1,0 +1,6 @@
+name = input("what's your name? ")
+# print("hello,",name,sep="bsdk")
+print("hello, ",end="")
+name=name.strip()
+name=name.title()
+print(name)
