@@ -15,5 +15,5 @@ def main():
     
 def square(s):
     return pow(s,8)
-# main() 
+main() 
 
