@@ -22,12 +22,19 @@
     
 # print("meow\n"*3,end="")
 
-def main():
-    meow(3)
+# def main():
+#     meow(3)
 
-def meow(n):
-    for _ in range(n):
-        print("meow")
-main()
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
+# main()
+
+while True:
+    n=int(input("what's n?"))
+    if n> 0:
+        break
+for _ in range(n):
+    print("meow")
         
     
