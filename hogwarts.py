@@ -7,9 +7,22 @@ students=["hermione","Ron","harry"]
 #     print(students)
     
 # using len
-for i in range(len(students)):
-    # print(students[i]) 
-    print(i+1,students[i]) 
+# for i in range(len(students)):
+#     # print(students[i]) 
+#     print(i+1,students[i]) 
+    
+
+#dict
+students={
+    "Hermione":"Gryffindor",
+    "Harry":"Gryffindor",
+    "Ron":"Gryffindor",
+    "Draco":"Slytherin",
+}
+print(students["Hermione"])
+print(students["Harry"])
+print(students["Ron"])
+print(students["Draco"])
 
 
 
