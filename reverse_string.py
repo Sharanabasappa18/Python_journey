@@ -1,4 +1,4 @@
-s="Sharanu"
+s=input("Enter a string: ")
 result=""
 
 for char in s:
