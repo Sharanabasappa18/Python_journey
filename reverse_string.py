@@ -1,6 +1,10 @@
+## LOOP METHOD ##
 s=input("Enter a string: ")
 result=""
 
 for char in s:
     result=char+result
 print(result)
+
+## SLICING METHOD ##
+print(s[::-1])
