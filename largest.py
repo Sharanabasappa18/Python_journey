@@ -1,5 +1,7 @@
-# finding 2nd largest number in list 
-numbers=[10,45,23,67,89,69]
-unique_numbers=list(set(numbers))
-unique_numbers.sort()
-print("2nd largest number:",unique_numbers[-2])
+nums=[100,357,67,8379,327,38,388,373]
+largest=nums[0]
+
+for num in nums:
+    if num > largest:
+        largest=num
+print(largest)
