@@ -1,5 +1,5 @@
-# s="madam"
-s=input("Enter a name : ")
+# s="madam"   # for taking direct string 
+s=input("Enter a name : ")  # for taking the string from user
 reverse=""
 
 for char in s:
