@@ -192,7 +192,6 @@ def victory_for(board, sign):
     return False
 
 def draw_move(board):
-    # The function draws the computer's move and updates the board.
     free_fields = make_list_of_free_fields(board)
     
     # Simple AI: Pick a random available square
