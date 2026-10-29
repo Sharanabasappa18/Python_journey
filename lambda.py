@@ -13,3 +13,13 @@ print("Average",Average(2,4,7))
 print("cube:",cube(3))
 print("mul:",mul(2))
 print("add: ",double(3))
+
+# functions map(),filter() and sorted()
+## map ## => it applies a function to every item in an iterable 
+numbers=[1,2,3,4,5,6]
+result=list(map(lambda x:x*2,numbers))
+
+# filter() ==> it selects items that satisfy a condition  condition 
+result2=list(filter(lambda a: a%2==0,numbers))
+print(result)
+print(result2)
