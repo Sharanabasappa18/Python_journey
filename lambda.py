@@ -23,3 +23,10 @@ result=list(map(lambda x:x*2,numbers))
 result2=list(filter(lambda a: a%2==0,numbers))
 print(result)
 print(result2)
+
+## sorted() ## =>it sorts the data based on a particular value
+students=[("rose",59),("jack",89),("hulk",56),("witch",78),("vision",90)]
+sort=sorted(students,key=lambda s:s[0],reverse=True)        #sorts by name
+sort1=sorted(students,key=lambda s:s[1],reverse=False)      #sorts by marks 
+print(sort)
+print(sort1)
