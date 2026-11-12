@@ -11,4 +11,5 @@ def find_lcm(x,y):
     return lcm
 num1=int(input("Enter the number :"))
 num2=int(input("Enter the number :"))
+num3=int(input("Enter the number :"))
 print("The L.C.M. is", find_lcm(num1, num2))
